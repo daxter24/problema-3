@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hHI7IH1wEeuPaZ49Pq2wvw" name="Problema3P3">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hbLRcH1wEeuPaZ49Pq2wvw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_q_JiEH1wEeuPaZ49Pq2wvw" name="problema3">
+    <packagedElement xmi:type="uml:Class" xmi:id="_2VST4H1wEeuPaZ49Pq2wvw" name="Ubicación">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_F-9XcH1xEeuPaZ49Pq2wvw" name="longitud" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GWZnEH1xEeuPaZ49Pq2wvw" name="latitud" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Gs40cH1xEeuPaZ49Pq2wvw" name="periodo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_G7yzIH1xEeuPaZ49Pq2wvw" name="distancia" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2nWUQH1wEeuPaZ49Pq2wvw" name="CuerpoCeleste">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HN86IH1xEeuPaZ49Pq2wvw" name="nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HZO9EH1xEeuPaZ49Pq2wvw" name="localizaciones" visibility="private" type="_2VST4H1wEeuPaZ49Pq2wvw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HkM28H1xEeuPaZ49Pq2wvw" name="composicion" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_L6gv4H1xEeuPaZ49Pq2wvw" name="desplazamiento">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Vf_m8H1yEeuPaZ49Pq2wvw" name="i">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XsvLUH1yEeuPaZ49Pq2wvw" name="j">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Z-cvQH1yEeuPaZ49Pq2wvw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
